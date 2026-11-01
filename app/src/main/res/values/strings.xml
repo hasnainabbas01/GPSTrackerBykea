@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">GPSTrackinBykea</string>
+    <string name="channel_tracking_name">Location tracking</string>
+    <string name="channel_tracking_description">Ongoing status while your location is being tracked</string>
+    <string name="channel_alerts_name">Tracking alerts</string>
+    <string name="channel_alerts_description">Problems that stop tracking and need your attention</string>
+
+    <string name="action_not_now">Not now</string>
+    <string name="action_continue_approximate">Continue with approximate</string>
+
+    <string name="permission_location_title">Location access is required</string>
+    <string name="permission_location_body">This app tracks your position, so it cannot work without location access. Your location stays on this device.</string>
+    <string name="permission_location_action">Grant location access</string>
+    <string name="permission_denied_title">Location access is turned off</string>
+    <string name="permission_denied_body">Android will no longer show the permission dialog for this app. To continue, open App Settings, choose Permissions, then Location, and allow access.</string>
+    <string name="permission_denied_action">Open App Settings</string>
+    <string name="permission_precise_title">Use precise location?</string>
+    <string name="permission_precise_body">With approximate location, your position can be off by a few kilometres. Precise location is needed for an accurate live position.</string>
+    <string name="permission_precise_action">Use precise location</string>
+    <string name="permission_notifications_title">Show tracking status</string>
+    <string name="permission_notifications_body">Notifications show when tracking is running, let you stop it, and warn you if it pauses. Tracking still works without them.</string>
+    <string name="permission_notifications_action">Allow notifications</string>
+    <string name="permission_background_title">Allow location all the time</string>
+    <string name="permission_background_body">Tracking keeps running in the background without this. It is needed so tracking can restart by itself if the system stops the app or the phone reboots. In App Settings, choose Permissions, then Location, then Allow all the time.</string>
+    <string name="permission_background_action">Open App Settings</string>
+    <string name="permission_background_action_dialog">Allow all the time</string>
+    <string name="permission_services_title">Turn on device location</string>
+    <string name="permission_services_body">Location is switched off for the whole device, so no app can get a position until it is turned on.</string>
+    <string name="permission_services_action">Turn on location</string>
+
+    <string name="notification_starting">Tracking · waiting for a location</string>
+    <string name="notification_tracking">Tracking · ±%1$d m · %2$s</string>
+    <string name="notification_stop">Stop</string>
+    <string name="alert_permission_title">Location permission needed</string>
+    <string name="alert_permission_body">Tracking stopped. Tap to allow location access.</string>
+
+    <string name="alert_resume_title">Location tracking paused</string>
+    <string name="alert_resume_body">Tap to resume</string>
+
+    <string name="action_battery_settings">Battery &amp; background settings</string>
+    <string name="action_done">Done</string>
+    <string name="battery_title">Keep tracking reliable</string>
+    <string name="battery_body">Android can stop background apps to save power. Exempting this app helps tracking keep running with the screen off. The tracker already reduces its own battery use when you are still or the battery is low.</string>
+    <string name="battery_exempt">This app is exempt from battery optimization.</string>
+    <string name="battery_request">Allow unrestricted battery use</string>
+
+    <string name="tracker_live">● LIVE</string>
+    <string name="tracker_live_description">Live location</string>
+    <string name="tracker_cached">○ CACHED · %1$s</string>
+    <string name="tracker_cached_description">Cached location, %1$s</string>
+    <string name="tracker_no_location">○ NO LOCATION YET</string>
+    <string name="tracker_no_location_description">No location yet</string>
+    <string name="age_seconds">%1$d s ago</string>
+    <string name="age_minutes">%1$d min ago</string>
+    <string name="age_hours">%1$d h ago</string>
+    <string name="label_latitude">Lat</string>
+    <string name="label_longitude">Lng</string>
+    <string name="label_accuracy">Accuracy</string>
+    <string name="label_provider">Provider</string>
+    <string name="label_updated">Updated</string>
+    <string name="label_mode">Mode</string>
+    <string name="label_motion">Motion</string>
+    <string name="label_gnss">GNSS</string>
+    <string name="label_battery">Battery</string>
+    <string name="value_unknown">—</string>
+    <string name="value_accuracy">±%1$d m</string>
+    <string name="value_accuracy_low_confidence">±%1$d m (⚠ low confidence)</string>
+    <plurals name="value_gnss_good">
+        <item quantity="one">%1$d satellite used · good signal</item>
+        <item quantity="other">%1$d satellites used · good signal</item>
+    </plurals>
+    <string name="value_gnss_weak">Weak GPS · using network</string>
+    <string name="value_battery_saver_on">%1$d%% · Power Saver on</string>
+    <string name="value_battery_saver_off">%1$d%% · Power Saver off</string>
+    <string name="action_start_tracking">Start tracking</string>
+    <string name="action_stop_tracking">Stop tracking</string>
+    <string name="error_start_not_allowed">Android did not allow tracking to start right now. Please try again.</string>
+</resources>
